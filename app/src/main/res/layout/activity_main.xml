@@ -6,10 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ListView_main
+    <ListView
+        android:id="@+id/ListView_main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="508dp"
+        tools:layout_editor_absoluteY="3dp">
 
-    </ListView_main>
+    </ListView>
 
 </android.support.constraint.ConstraintLayout>
